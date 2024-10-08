@@ -11,11 +11,11 @@ function App() {
   const [currentTest, setCurrentTest] = useState("test1");
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
   const tests = [
-    { id: "test1", label: "Test 1", component: <Test1 /> },
-    { id: "test2", label: "Test 2", component: <Test2 /> },
-    { id: "test3", label: "Test 3", component: <Test3 /> },
-    { id: "test4", label: "Test 4", component: <Test4 /> },
-    { id: "test5", label: "Test 5", component: <Test5 /> },
+    { id: "test1", label: "Test 1 mark 1", component: <Test1 /> },
+    { id: "test2", label: "Test 2 mark1", component: <Test2 /> },
+    { id: "test3", label: "Test 3 mark1", component: <Test3 /> },
+    { id: "test4", label: "Test 4 mark1", component: <Test4 /> },
+    { id: "test5", label: "Test 5 mark 2", component: <Test5 /> },
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>SAHECEQuiz App</h1>
+      <h1>SAHCSEQuiz App</h1>
 
       {/* Hamburger Icon */}
       <div className="hamburger" onClick={toggleMenu}>

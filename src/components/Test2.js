@@ -3,42 +3,81 @@ import './Test.css'; // Import local CSS
 
 const Test2 = () => {
   const questions = [
-    {
-      "question": "Which of the following pencil leads is the hardest?",
-      "options": ["HB", "H", "B", "F"],
-      "answer": "H"
-    },
-    {
-      "question": "Convert this binary data into decimal: (1011.1011)₂",
-      "options": ["11.6875", "11.567", "10.6875", "10.3578"],
-      "answer": "11.6875"
-    },
-    {
-      "question": "Master-slave flip-flop is also referred to as?",
-      "options": ["Level triggered flip-flop", "Pulse triggered flip-flop", "Edge triggered flip-flop", "Edge-Level triggered flip-flop"],
-      "answer": "Pulse triggered flip-flop"
-    },
-    {
-      "question": "Total number of professional engineers registered in NEC?",
-      "options": ["31", "41", "51", "61"],
-      "answer": "61"
-    },
-    {
-      "question": "NEC (Nepal Engineering Council) must submit their annual report every year to?",
-      "options": ["Chairman", "Prime Minister", "Nepal government", "Government sub-secretary"],
-      "answer": "Prime Minister"
-    },
-    {
-      "question": "Tenure of the President of NEA?",
-      "options": ["4 years", "2 years", "3 years", "1 year"],
-      "answer": "4 years"
-    },
-    {
-      "question": "Fourier Transform of Aδ(t) is?",
-      "options": ["1", "A^2", "A", "0"],
-      "answer": "1"
-    }
-    
+      {
+        "question": "Ohm’s law is not applicable to",
+        "options": ["DC circuits", "High circuits", "Small circuits", "Semi-conductors"],
+        "answer": "Semi-conductors"
+      },
+      {
+        "question": "In a series of resonant circuit, with an increase in L",
+        "options": ["Resonant frequency will decrease", "Bandwidth will decrease", "Q will increase", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "In a three phase, delta connection____",
+        "options": ["Line current is equal to phase current", "Line voltage is equal to phase voltage", "None of the above", "Line voltage and line current is zero"],
+        "answer": "Line voltage is equal to phase voltage"
+      },
+      {
+        "question": "The reverse current in a diode is of the order of",
+        "options": ["KA", "mA", "µA", "A"],
+        "answer": "µA"
+      },
+      {
+        "question": "What is the minimum frequency at which a crystal will oscillate?",
+        "options": ["Seventh harmonic", "Third harmonic", "Fundamental", "Second harmonic"],
+        "answer": "Fundamental"
+      },
+      {
+        "question": "Power amplifiers handle _______ signals compared to voltage amplifiers",
+        "options": ["small", "large", "very small", "equal"],
+        "answer": "large"
+      },
+      {
+        "question": "A _____ is a group of devices that store digital data",
+        "options": ["Circuits", "Variations", "Register", "Bit"],
+        "answer": "Register"
+      },
+      {
+        "question": "A Full-Adder adds ____ bits.",
+        "options": ["2", "4", "8", "3"],
+        "answer": "3"
+      },
+      {
+        "question": "A positive AND gate is also a negative",
+        "options": ["NAND gate", "AND gate", "NOR gate", "OR gate"],
+        "answer": "OR gate"
+      },
+      {
+        "question": "In 8085 microprocessor, the first machine cycle of every instruction is",
+        "options": ["Opcode fetch", "Memory read", "Memory write", "I/O read"],
+        "answer": "Opcode fetch"
+      },
+      {
+        "question": "What is the size of the internal bus of the 8255 PPI?",
+        "options": ["16 bits", "8 bits", "4 bits", "2 bits"],
+        "answer": "8 bits"
+      },
+      {
+        "question": "The interrupt which cannot be delayed and require the processor to process them immediately ____",
+        "options": ["Maskable interrupt", "Non-maskable", "Periodic interrupts", "All of the above"],
+        "answer": "Non-maskable"
+      },
+      {
+        "question": "Which of the following is not a keyword in C?",
+        "options": ["Double", "Ripple", "Default", "Static"],
+        "answer": "Ripple"
+      },
+      {
+        "question": "Wild pointer is",
+        "options": ["Which is wild in nature", "Which has no value", "Which is not initialized", "None of the above"],
+        "answer": "Which is not initialized"
+      },
+      {
+        "question": "How many ways to invoke a function in C++?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      }
     
   ];
 

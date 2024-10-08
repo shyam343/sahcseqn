@@ -3,51 +3,92 @@ import './Test.css'; // Import local CSS
 
 const Test5 = () => {
   const questions = [
-    {
-      "question": "What method of depreciation is used for tax purposes?",
-      "options": ["Double declining", "SOYD", "MACRS", "Straight line"],
-      "answer": "MACRS"
-    },
-    {
-      "question": "According to the Nyquist stability criterion, where should the position of all zeros of q(s) correspond to in the s-plane?",
-      "options": ["On left half", "At the center", "On right half", "Random"],
-      "answer": "On left half"
-    },
-    {
-      "question": "The feedback of an ideal operational amplifier is connected to?",
-      "options": ["Inverting input", "Non-inverting input", "Offset null", "Not connected anywhere"],
-      "answer": "Inverting input"
-    },
-    {
-      "question": "The ratio of voltage transform at the first port to the voltage transform at the second port is called?",
-      "options": ["Voltage transfer ratio", "Current transfer ratio", "Transfer impedance", "Transfer admittance"],
-      "answer": "Voltage transfer ratio"
-    },
-    {
-      "question": "Z-parameters are also known as?",
-      "options": ["Open-circuit impedance", "Open-circuit admittance", "Short circuit admittance", "Short circuit impedance"],
-      "answer": "Open-circuit impedance"
-    },
-    {
-      "question": "What is the minimum number of NAND gates required to get the function of an OR gate?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "2"
-    },
-    {
-      "question": "The advantage of negative feedback in a system?",
-      "options": ["Decreases distortion", "Decreases the stability", "Decreases the input impedance", "Decreases the output impedance"],
-      "answer": "Decreases distortion"
-    },
-    {
-      "question": "What is the bandwidth of a frequency-modulated wave, if the frequency deviation allowed is 50 kHz and the modulating signal has a frequency of 1 kHz?",
-      "options": ["51", "102", "100", "154"],
-      "answer": "102"
-    },
-    {
-      "question": "If the modulation index is greater than 1?",
-      "options": ["The baseband signal is not preserved in the envelope of the AM signal", "The recovered signal is distorted", "It is called over modulation", "All of the above"],
-      "answer": "All of the above"
-    }
+      {
+        "question": "A 66.6% risk is considered as",
+        "options": ["Low", "Nominal", "Moderate", "High"],
+        "answer": "High"
+      },
+      {
+        "question": "Professionals who breach the ‘duty of care’ are liable for injuries their negligence causes. This liability is commonly referred to as",
+        "options": ["Professional offense", "Professional malpractice", "Professional misdeed", "Professional negligence"],
+        "answer": "Professional malpractice"
+      },
+      {
+        "question": "For a fixed bias circuit having RC=4.7kΩ and RB=1kΩ, VCC=10V and base current at bias point was found to be 0.2µA, find β.",
+        "options": ["100", "106", "125", "0"],
+        "answer": "100"
+      },
+      {
+        "question": "An eight-stage ripple counter uses a flip-flop with propagation delay of 75 nanoseconds. The pulse width of the strobe is 50ns. Frequency of the input signal which can be used for proper operation of the counter is approximately",
+        "options": ["1MHz", "2MHz", "500MHz", "4MHz"],
+        "answer": "1MHz"
+      },
+      {
+        "question": "Convert binary number 1101 to decimal",
+        "options": ["13", "11", "49", "3"],
+        "answer": "13"
+      },
+      {
+        "question": "What will be the output of the following code?\n#include <stdio.h>\nint main (){\nfloat x = 20.0;\nx %= 3.0;\nprintf(\"%f\",x);\nreturn  0;\n}",
+        "options": ["2", "2.5", "Warning", "Error"],
+        "answer": "2"
+      },
+      {
+        "question": "What will be the output of the following code?\n#include <iostream>\nusing namespace std;\nvoid fun(int x, int y){\n x = 20;\n y = 10;\n}\nint main() {\n int x = 10;\n fun (x, x);\n cout << x;\n return 0;\n}",
+        "options": ["10", "20", "Compile time error", "30"],
+        "answer": "10"
+      },
+      {
+        "question": "Suppose that a bus has 16 data lines and required 4 cycles of 250 nanoseconds each to transfer data. The bandwidth of this bus would be 2 Megabytes/sec. If the cycle time of the bus was reduced to 125 nsecs and the number of cycles required for the transfer stayed the same what would the bandwidth of the bus?",
+        "options": ["1 Megabyte/sec", "8 Megabyte/sec", "4 Megabyte/sec", "2 Megabyte/sec"],
+        "answer": "2 Megabyte/sec"
+      },
+      {
+        "question": "If each address space represents one byte of storage space, how many address lines are needed to access RAM chips arranged in a 4*6 array, where each chip is 8K *4 bits?",
+        "options": ["13", "16", "15", "17"],
+        "answer": "15"
+      },
+      {
+        "question": "A Computer on a 10 Mbps network is regulated by a token bucket. The token bucket is filled at a rate of 2 Mbps. It is initially filled to capacity with 16 megabits. What is the maximum duration for which the computer can transmit at the full 10 Mbps?",
+        "options": ["1.6 seconds", "2 seconds", "5 seconds", "8 seconds"],
+        "answer": "2 seconds"
+      },
+      {
+        "question": "Terminals are required for___",
+        "options": ["real-time, batch processing and time-sharing", "real-time, time sharing & distributed message processing", "real-time, distributed processing & manager inquiry", "real-time, time sharing & message switching"],
+        "answer": "real-time, time sharing & message switching"
+      },
+      {
+        "question": "The mirror image for a two-dimensional reflection is generated relative to an axis of reflection by rotation of the object___ degrees about the reflection axis.",
+        "options": ["90", "180", "270", "360"],
+        "answer": "180"
+      },
+      {
+        "question": "What is the time complexity of the selection sort algorithm in the best and worst cases?",
+        "options": ["Best O(n^2), worst O(n)", "Best O (n log n), worst O(n^2)", "Best O(n), worst O(n^2)", "Best O(n^2) worst O(n^2)"],
+        "answer": "Best O(n^2) worst O(n^2)"
+      },
+      {
+        "question": "An OS contains 3 user processes each requiring 2 units of resource R. The minimum number of units of R such that no deadlocks ever arise is",
+        "options": ["4", "3", "5", "6"],
+        "answer": "4"
+      },
+      {
+        "question": "Which of the following is the correct list of entities of Composite Entity pattern?",
+        "options": ["Composite Entity, Coarse-Grained Object, Strategies", "Composite Entity, Dependent Object, Strategies", "Composite Entity, Coarse-Grained Object, Dependent Object, Strategies", "Composite Entity, Coarse-Grained Object, Dependent Object"],
+        "answer": "Composite Entity, Coarse-Grained Object, Dependent Object, Strategies"
+      },
+      {
+        "question": "What will be the output of the following code?\\n#include <stdio.h>\\n int main (){\\n float x = 20.0;\\nx %= 3.0;\\nprintf(\"%f\",x);\\nreturn 0;\\n}",
+        "options": ["2", "2.5", "Warning", "Error"],
+        "answer": "Error"
+      },
+      {
+        "question": "What will be the output of the following code?\\n#include <iostream>\\nusing namespace std;\\nvoid fun(int x, int y){\\n x = 20;\\n y = 10;\\n}\\nint main() {\\n int x = 10;\\n fun (x, x);\\n cout << x;\\n return 0;\\n}",
+        "options": ["10", "20", "Compile time error", "30"],
+        "answer": "10"
+      }
+      
     
   ];
 

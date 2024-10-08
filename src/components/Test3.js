@@ -3,124 +3,81 @@ import './Test.css'; // Import local CSS
 
 const Test3 = () => {
   const questions = [
-    {
-      "question": "Choose the correct statement about the C language break; statement.",
-      "options": [
-        "A single break; statement can force execution control to come out of only one loop.",
-        "A single break; statement can force execution control to come out of a maximum of two nested loops.",
-        "A single break; statement can force execution control to come out of a maximum of three nested loops.",
-        "None of the above."
-      ],
-      "answer": "A single break; statement can force execution control to come out of only one loop."
-    },
-    {
-      "question": "What is an inline function?",
-      "options": [
-        "A function that is expanded at each call during execution.",
-        "A function that is called during compile time.",
-        "A function that is not checked for syntax errors.",
-        "A function that is not checked for semantic analysis."
-      ],
-      "answer": "A function that is expanded at each call during execution."
-    },
-    {
-      "question": "In an overhead transmission line, conductor current concentration occurs on the surface of the conductor due to?",
-      "options": [
-        "High current flowing.",
-        "Low current flowing.",
-        "Both a and b.",
-        "None of the above."
-      ],
-      "answer": "High current flowing."
-    },
-    {
-      "question": "Why is function definition required in C?",
-      "options": [
-        "Functions are used to perform certain actions, and they are important for reusing code.",
-        "None"
-      ],
-      "answer": "Functions are used to perform certain actions, and they are important for reusing code."
-    },
-    {
-      "question": "In TDM (Time Division Multiplexing), the bandwidth of the input source signal is __________ the transmitted composite signal.",
-      "options": [
-        "Greater than",
-        "Equal to",
-        "Less than"
-      ],
-      "answer": "Equal to"
-    },
-    {
-      "question": "In which mode of the 8255 PPI is handshaking carried out?",
-      "options": [
-        "Mode 0",
-        "Mode 1",
-        "Mode 2",
-        "Mode 3"
-      ],
-      "answer": "Mode 1"
-    },
-    {
-      "question": "In a transformer, the core is made of soft iron to reduce?",
-      "options": [
-        "Eddy current loss.",
-        "Hysteresis loss.",
-        "Force opposing electric current.",
-        "None of the above."
-      ],
-      "answer": "Hysteresis loss."
-    },
-    {
-      "question": "What happens to the speed of a synchronous motor if the load is halved?",
-      "options": [
-        "Remains the same.",
-        "Increases.",
-        "Decreases.",
-        "Halves the speed."
-      ],
-      "answer": "Remains the same."
-    },
-    {
-      "question": "Dummy strain gauges are used for?",
-      "options": [
-        "Calibration.",
-        "Compensation for temperature variation.",
-        "Increase bridge sensitivity.",
-        "None of the above."
-      ],
-      "answer": "Compensation for temperature variation."
-    },
-    {
-      "question": "Which is not associated with the dynamic characteristics of measurement?",
-      "options": ["Measuring lag", "Fidelity", "Speed of response", "Accuracy"],
-      "answer": "Accuracy"
-    },
-    {
-      "question": "Find the Z-transform of δ(n + 3).",
-      "options": ["z", "z2", "1", "z3"],
-      "answer": "z3"
-    },
-    {
-      "question": "The Superposition Theorem is not applicable for ___",
-      "options": ["Power calculation", "Voltage calculation", "Current Calculation", "Both Voltage and Current calculation"],
-      "answer": "Power calculation"
-    },
-    {
-      "question": "When the pointer of an indicating instrument is in motion, then the deflecting torque is opposed by:",
-      "options": ["Damping torque", "Controlling torque", "Both damping torque and controlling torque", "Rotating torque"],
-      "answer": "Both damping torque and controlling torque"
-    },
-    {
-      "question": "Which of the following connection is best suited for 3 phase 4 wire service?",
-      "options": ["ΔΔ", "YY", "ΔY", "YΔ"],
-      "answer": "YY"
-    },
-    {
-      "question": "When the number of poles is equal to the number of zeros, how many branches of root locus tend towards infinity?",
-      "options": ["1", "2", "0", "Equal to the number of zeros"],
-      "answer": "0"
-    }
-    
+      {
+        "question": "The regular sets are closed under",
+        "options": ["Union", "Kleene's closure", "Concentration", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Can a DFA simulate NFA?",
+        "options": ["NO", "Sometimes", "Yes", "Depend on NFA"],
+        "answer": "Yes"
+      },
+      {
+        "question": "P, Q, R are three languages, if P and R are regular and if PQ=R then",
+        "options": ["Q=R", "Q=P", "Both a and b", "Q need not be regular"],
+        "answer": "Q need not be regular"
+      },
+      {
+        "question": "In a black and white system ___ per pixel is needed to control intensity of screen positions.",
+        "options": ["0 bit", "1 bit", "2 bits", "3 bits"],
+        "answer": "1 bit"
+      },
+      {
+        "question": "The scattered light is called as____",
+        "options": ["Specular reflection", "Ambient light", "Source light", "Diffuse reflection"],
+        "answer": "Diffuse reflection"
+      },
+      {
+        "question": "A circle, if scaled in only one direction becomes a",
+        "options": ["Parabola", "Ellipse", "Hyperbola", "Remains a circle"],
+        "answer": "Ellipse"
+      },
+      {
+        "question": "What is the big O notation for a binary search algorithm?",
+        "options": ["O (1)", "O (n)", "O (log n)", "O (n log n)"],
+        "answer": "O (log n)"
+      },
+      {
+        "question": "The maximum number of edges in a simple graph with 8 vertices is",
+        "options": ["7", "2", "14", "28"],
+        "answer": "28"
+      },
+      {
+        "question": "The entity in E-R diagram is",
+        "options": ["Physical object in database", "Logical object in database", "Table in database", "Field in database"],
+        "answer": "Logical object in database"
+      },
+      {
+        "question": "Transaction in a DBMS is",
+        "options": ["Series of database operation that are treated as a single unit of work", "Single database operation", "Method used to encrypt data", "Method used to compress data"],
+        "answer": "Series of database operation that are treated as a single unit of work"
+      },
+      {
+        "question": "Semaphore are used to solve the problem of",
+        "options": ["Race condition", "Mutual exclusion", "Process synchronization", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Belady anomaly occurs in",
+        "options": ["Optimal replacement", "LRU", "FIFO (First In, First Out)", "Both b and c"],
+        "answer": "FIFO (First In, First Out)"
+      },
+      {
+        "question": "Identify the incorrect type of prototyping model",
+        "options": ["Vertical prototype", "Horizontal prototype", "Diagonal prototype", "Domain prototype"],
+        "answer": "Diagonal prototype"
+      },
+      {
+        "question": "_____ is not included in architectural design decisions",
+        "options": ["Type of applications", "Distribution of the systems", "Architectural styles", "Testing the system"],
+        "answer": "Testing the system"
+      },
+      {
+        "question": "Functional testing is a",
+        "options": ["Random testing", "Test level", "STLC model", "Test type"],
+        "answer": "Test type"
+      }
     
   ];
 

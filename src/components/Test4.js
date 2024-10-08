@@ -3,93 +3,81 @@ import './Test.css'; // Import local CSS
 
 const Test4 = () => {
   const questions = [
-    {
-      "question": "If a technician measures voltages across terminals as 10.5, 10.15, 10.05, 10.10, and 10.00, what will be the range error?",
-      "options": ["±0.01", "±0.1", "±0.025", "±0.05"],
-      "answer": "±0.01"
-    },
-    {
-      "question": "The transfer function of a system is the Laplace transform of its __ under the assumption of zero initial conditions.",
-      "options": ["Square-wave response", "Ramp response", "Step response", "Impulse response"],
-      "answer": "Step response"
-    },
-    {
-      "question": "The rate of a block code is the ratio of?",
-      "options": ["Block length to message length", "Message length to block length", "Message weight to block length", "None of the mentioned"],
-      "answer": "Message length to block length"
-    },
-    {
-      "question": "In TTL, which logic gate is normally used?",
-      "options": ["NAND", "NOR", "OR", "AND"],
-      "answer": "NAND"
-    },
-    {
-      "question": "The major advantage of FM over AM is?",
-      "options": ["Reception is less noisy", "Higher carrier frequency", "Smaller bandwidth", "Small frequency deviation"],
-      "answer": "Reception is less noisy"
-    },
-    {
-      "question": "Which stage occurs between the passband and stopband of a low-pass filter?",
-      "options": ["Transition band", "Attention band","A & B", "none"],
-      "answer": "Transition band"
-    },
-    {
-      "question": "The gain of a first-order low-pass filter?",
-      "options": ["Increases at the rate of 20dB/decade", "Increases at the rate of 40dB/decade", "Decreases at the rate of 20dB/decade", "Decreases at the rate of 40dB/decade"],
-      "answer": "Decreases at the rate of 20dB/decade"
-    },
-    {
-      "question": "The transfer function f(z) tending to infinity represents?",
-      "options": ["Pole", "Zero", "A & B", "None"],
-      "answer": "Pole"
-    },
-    {
-      "question": "Which rotor is used for high-speed applications?",
-      "options": ["Cylindrical Rotor", "Salient pole rotor", "A and B", "None"],
-      "answer": "Cylindrical Rotor"
-    },
-    {
-      "question": "The maximum torque angle of a synchronous motor is?",
-      "options": ["45°", "90°", "120°", "180°"],
-      "answer": "90°"
-    },
-    {
-      "question": "Which of the following is an analog modulation technique?",
-      "options": ["PAM", "PCM", "PPM", "PWM"],
-      "answer": "PWM"
-    },
-    {
-      "question": "Which of the following statements regarding Gantt charts is TRUE?",
-      "options": [
-        "Gantt charts give a timeline and precedence relationships for each activity of a project.",
-        "Gantt charts use the four standard spines of Methods, Materials, Manpower, and Machinery.",
-        "Gantt charts are visual devices that show the duration of activities in a project.",
-        "Gantt charts are expensive"
-      ],
-      "answer": "Gantt charts are visual devices that show the duration of activities in a project."
-    },
-    {
-      "question": "Maximum speed of a synchronous machine for 50 Hz is -",
-      "options": ["1500 rpm", "6000 rpm", "3000 rpm", "2000 rpm"],
-      "answer": "3000 rpm"
-    },
-    {
-      "question": "Which programming language is closely related to human languages?",
-      "options": ["Assembly Language", "Low Level Language", "Machine Language", "High Level Language"],
-      "answer": "High Level Language"
-    },
-    {
-      "question": "_____ refers to the attributes that have a direct impact on the logical execution of the program.",
-      "options": ["Computer organization", "Computer architecture", "Both a & b", "Computer Design"],
-      "answer": "Computer architecture"
-    },
-    {
-      "question": "The number of 1’s in the 8-bit unsigned representation of 127 in its 2’s complement form is m and that in 1’s complement form is n. What is the value of m : n?",
-      "options": ["2 : 1", "1 : 2", "3 : 1", "1 : 3"],
-      "answer": "2 : 1"
-    }
-    
-    
+      {
+        "question": "___ diagram is time-oriented",
+        "options": ["Activity", "Sequence", "Collaboration", "None of these"],
+        "answer": "Sequence"
+      },
+      {
+        "question": "GOF stands for",
+        "options": ["Gamma for four", "Gang of four", "Gang of helm", "Glass optical fibre"],
+        "answer": "Gang of four"
+      },
+      {
+        "question": "Implementation in an OOP language requires writing source code for:",
+        "options": ["Class and interface definition", "Method definitions", "Both a and b", "None"],
+        "answer": "Both a and b"
+      },
+      {
+        "question": "The father of AI is ___",
+        "options": ["Alan Turing", "John McCarthy", "Warren McCulloh", "Elon Musk"],
+        "answer": "John McCarthy"
+      },
+      {
+        "question": "Problem space is an ____ space",
+        "options": ["Virtual", "Abstract", "Search", "None of these"],
+        "answer": "Search"
+      },
+      {
+        "question": "The conditional statement of P->Q",
+        "options": ["If P, then Q", "If P, Q", "P is sufficient for Q", "All the above"],
+        "answer": "All the above"
+      },
+      {
+        "question": "____ emphasize what to do to solve a given problem.",
+        "options": ["Procedural knowledge", "Declarative knowledge", "Tacit knowledge", "Explicit knowledge"],
+        "answer": "Procedural knowledge"
+      },
+      {
+        "question": "____ has the ability to learn without being explicitly programmed",
+        "options": ["Application learning", "Machine learning", "Neural network", "Computer vision"],
+        "answer": "Machine learning"
+      },
+      {
+        "question": "Artificial neural system are called",
+        "options": ["Neural networks and neurocomputers", "Parallel distributed processors", "Connectionists system", "All the above"],
+        "answer": "All the above"
+      },
+      {
+        "question": "Back view lies in ____ position in 3rd angle projection.",
+        "options": ["Above F.V", "Below T.V", "Right side of right-hand side view", "Left side of left-hand side view"],
+        "answer": "Right side of right-hand side view"
+      },
+      {
+        "question": "___ is a measure of the rate of return on an investment",
+        "options": ["Present value", "Future value", "Net present value", "Internal rate of return"],
+        "answer": "Internal rate of return"
+      },
+      {
+        "question": "The process of tender in Nepal is governed by",
+        "options": ["Public Procurement Act, 2062", "Public Procurement Act, 2063", "Public Procurement Act, 2064", "Public Procurement Act, 2065"],
+        "answer": "Public Procurement Act, 2063"
+      },
+      {
+        "question": "A 66.6% risk is considered as",
+        "options": ["Low", "Nominal", "Moderate", "High"],
+        "answer": "High"
+      },
+      {
+        "question": "Professionals who breach the ‘duty of care’ are liable for injuries their negligence causes. This liability is commonly referred to as",
+        "options": ["Professional offense", "Professional malpractice", "Professional misdeed", "Professional negligence"],
+        "answer": "Professional malpractice"
+      },
+      {
+        "question": "Person is applicable to re-register his/her name to the engineering council only after ___ period of his registration that has been cancelled.",
+        "options": ["One month", "Three months", "One year", "Three years"],
+        "answer": "One year"
+      }    
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);

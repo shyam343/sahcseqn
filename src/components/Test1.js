@@ -3,81 +3,83 @@ import './Test.css'; // Import local CSS
 
 const Test1 = () => {
   const questions = [
-    {
-      "question": "CMOS gates are commercially available as which of the following series?",
-      "options": ["1000", "2000", "3000", "4000"],
-      "answer": "4000"
-    },
-    {
-      "question": "What is the recommended level of illumination for an office room?",
-      "options": ["100", "200", "300", "600"],
-      "answer": "200"
-    },
-    {
-      "question": "A differentiator is usually not a part of a control system because it?",
-      "options": ["Reduces damping", "Reduces the gain margin", "Increases input noise", "Increases error"],
-      "answer": "Increases input noise"
-    },
-    {
-      "question": "Which compensation is used to reduce the power loss in radial distribution?",
-      "options": ["Series capacitor compensation", "Shunt capacitor compensation", "Phase angle compensation", "Series inductor compensation"],
-      "answer": "Shunt capacitor compensation"
-    },
-    {
-      "question": "Which layer of the OSI model is responsible for authorization and authentication?",
-      "options": ["Data link layer", "Session layer", "Application layer", "Presentation layer"],
-      "answer": "Session layer"
-    },
-    {
-      "question": "Which of the following operations cannot be performed on pointers in C?",
-      "options": ["Addition", "Subtraction", "Multiplication", "Comparison"],
-      "answer": "Addition"
-    },
-    {
-      "question": "According to NEC, what is the wire conductor size requirement for lighting and power sockets?",
-      "options": ["1.5 sq mm and 4 sq. mm", "2.4 sq. mm and 6 sq.mm", "1.5 sq.mm and 6 sq.mm", "2.4 sq.mm and 4 sq.mm"],
-      "answer": "1.5 sq mm and 4 sq. mm"
-    },
-    {
-      "question": "How many minimum basic function blocks are required for a communication system?",
-      "options": ["2", "5", "3", "7"],
-      "answer": "3"
-    },
-    {
-      "question": "What is the maximum number of dimensions an array in C may have?",
-      "options": ["2", "8", "3", "No limit"],
-      "answer": "No limit"
-    },
-    {
-      "question": "The bus is available when the DMA controller receives the signal?",
-      "options": ["HRQ", "HLDA", "DACK", "All of the mentioned"],
-      "answer": "HLDA"
-    },
-    {
-      "question": "How many segment registers are there in 8086?",
-      "options": ["5", "4", "8", "16"],
-      "answer": "4"
-    },
-    {
-      "question": "In a parallel circuit, which parameter remains the same?",
-      "options": ["Voltage", "Current", "Power", "Frequency"],
-      "answer": "Voltage"
-    },
-    {
-      "question": "Which parameter consumes power?",
-      "options": ["Capacitance", "Inductance", "Resistance", "Both a and b"],
-      "answer": "Resistance"
-    },
-    {
-      "question": "The forward characteristics of a diode are 50mV/µA. What is the forward resistance?",
-      "options": ["50", "35", "37", "25"],
-      "answer": "25"
-    },
-    {
-      "question": "Which oscillator is based on the piezoelectric effect?",
-      "options": ["LC oscillator", "Crystal oscillator", "a & b", "None"],
-      "answer": "Crystal oscillator"
-    }
+    
+    
+      {
+        "question": "What type of operator is cast operator?",
+        "options": ["Unary", "binary", "ternary", "none of the above"],
+        "answer": "Unary"
+      },
+      {
+        "question": "Which of the following is true about manipulators?",
+        "options": ["Used to makeup the program structure", "Are special stream functions that change certain format and characteristics of the input and output", "To carry out the operations of the manipulators <iomanip.h> must be included.", "All of the above"],
+        "answer": "Are special stream functions that change certain format and characteristics of the input and output"
+      },
+      {
+        "question": "Exception handling consists of ____ keywords?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "5"
+      },
+      {
+        "question": "The maximum stages in pipelining architecture",
+        "options": ["2", "3", "6", "5"],
+        "answer": "6"
+      },
+      {
+        "question": "The ALU of a computer responds to the commands coming from",
+        "options": ["Primary memory", "External memory", "Control section", "Cache memory"],
+        "answer": "Control section"
+      },
+      {
+        "question": "During DMA acknowledge cycle, CPU relinquishes",
+        "options": ["Address bus only", "Control bus and data bus", "Address bus and control bus", "Data bus and address bus"],
+        "answer": "Data bus and address bus"
+      },
+      {
+        "question": "Which of the following offers external chips for memory and peripheral interface circuits?",
+        "options": ["Embedded system", "Peripheral system", "Microcontrollers", "Microprocessor"],
+        "answer": "Microprocessor"
+      },
+      {
+        "question": "Which forms the heart of the operating system?",
+        "options": ["Kernel", "Applications", "process", "None of the above"],
+        "answer": "Kernel"
+      },
+      {
+        "question": "What does VHDL stand for?",
+        "options": ["Verilog hardware description language", "VHSIC hardware description language", "Very hardware description language", "VMEbus description language"],
+        "answer": "VHSIC hardware description language"
+      },
+      {
+        "question": "In which layer of the OSI model does a hub operate?",
+        "options": ["Physical layer", "Data link layer", "Network layer", "Transport layer"],
+        "answer": "Physical layer"
+      },
+      {
+        "question": "What is an example of a Data link layer?",
+        "options": ["TCP", "UDP", "IP", "HDLC"],
+        "answer": "HDLC"
+      },
+      {
+        "question": "What is the main function of ARP in a network?",
+        "options": ["To map IP addresses to physical addresses (MAC addresses)", "To provide fast transmission of data", "To provide secure transmission of data", "To provide efficient transmission of data"],
+        "answer": "To map IP addresses to physical addresses (MAC addresses)"
+      },
+      {
+        "question": "What is an example of port and socket in transport layer?",
+        "options": ["Port 80 and socket 192.168.1.1:80", "Port 443 and socket 192.168.1.1:443", "Port 25 and socket 192.168.1.1:25", "Port 53 and socket 192.168.1.1:53"],
+        "answer": "Port 80 and socket 192.168.1.1:80"
+      },
+      {
+        "question": "What is PuTTY used for in file transfer?",
+        "options": ["File transfer client", "File transfer server", "secure shell client", "None of the above"],
+        "answer": "secure shell client"
+      },
+      {
+        "question": "What is the main principle of cryptography?",
+        "options": ["Confidentiality", "Integrity", "Availability", "All of the above"],
+        "answer": "All of the above"
+      }
     
     
   ];
